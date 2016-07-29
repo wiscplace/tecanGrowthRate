@@ -8,6 +8,7 @@
 # 
 # #############################################################################
 #import 
+library(minpack.lm)
 library(stats)
 # check command line arguments
 args = commandArgs(trailingOnly = TRUE)
@@ -23,7 +24,7 @@ e <- read.csv(indata, header=TRUE, sep = '\t')
 # Select the data range Dee specified this range as being the exponential segment of the data.
 ef <- subset(e, Mean >= .25 & Mean <= .70)
 if( nrow(ef) != 0) {
-m <- nls( ef$Mean ~ (a * exp(b * ef$Time)), data = ef, start = list(a=1, b = 0), trace = T)
+m <- nlsLM( ef$Mean ~ (a * exp(b * ef$Time)), data = ef, start = list(a=1, b = 0), trace = T)
 
 # plot and fit line
 #plot(ef$Time,ef$Mean, pch=19)
