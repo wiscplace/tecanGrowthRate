@@ -1,4 +1,4 @@
-#!/home/GLBRCORG/mplace/anaconda3/bin/python
+#!/home/mplace/anaconda3/bin/python
 """
 Program: tecanGrowthRate.py 
 
