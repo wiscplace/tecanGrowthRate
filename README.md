@@ -28,7 +28,7 @@ exponential_fit.R
 *********************************************************************************
 NOTES for Mac users:
 
-    MS Excel on Mac's does not export a tab delimited file in a format this 
+    MS Excel on Mac does not export a tab delimited file in a format this 
     script can use.  Instead use LibreOffice or OpenOffice calc and export 
     a file which is tab delimited without quotes using utf-8 for encoding.  
 
