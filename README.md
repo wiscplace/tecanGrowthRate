@@ -8,9 +8,11 @@ tecanGrowthRate.py
     
     Required Parameters: -f tecan.txt
     
-    Rscript exponential_Fit.R must be in current directory
+    Rscript exponential_Fit.R must be in directory you are working in.
+        
+        to copy the file: cp /home/GLBRCORG/mplace/scripts/tecanGrowthRate/exponential_fit.R yourDirectory
     
-    To run:  /home/GLBRCORG/mplace/scripts/tecanGrowthRate.py -f tecan.txt
+    To run:  /home/GLBRCORG/mplace/scripts/tecanGrowthRate -f tecan.txt
 
     Output: Text table 
 
