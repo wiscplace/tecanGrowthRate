@@ -26,6 +26,8 @@ exponential_fit.R
 
     Output : R^2 and Growth Rate are calculated and returned
  
+    Requires:  libraries minpack.lm & stats
+
     version 1.0 July 2016
 *********************************************************************************
 NOTES for Mac users:

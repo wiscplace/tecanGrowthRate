@@ -22,8 +22,8 @@ Steps:
     R squared is calculated.  Then equation Y = e^(kx) is solved for x and used
     to calculate growth rate:  ln(2)/x 
 
-Dependencies: R must be in path
-
+Dependencies: R must be in path with libraries minpack.lm & stats
+              
 @author : Mike Place
 @date   : 06/8/2016
 @version: 1.0
@@ -37,8 +37,6 @@ import sys
 import re
 import subprocess 
 
-#stats = importr('stats')
-#base  = importr('base')
 
 def readTecanFile(inFile):
     """
